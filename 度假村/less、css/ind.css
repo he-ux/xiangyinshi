@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+div.box1 {
+  width: 90%;
+  height: 700px;
+  background-color: #c93434;
+  position: fixed;
+  z-index: 200;
+  right: -100%;
+  transition: all 1s ease;
+}
+div.box1 p {
+  width: 100%;
+  text-align: center;
+  height: 35px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 35px;
+}
+div.box1 p a {
+  color: white;
+}
+div.box1 p:nth-child(1) {
+  margin-top: 20px;
+}
+div.box {
+  width: 100%;
+  height: auto;
+  transition: all 1s ease;
+}
+div.box div.fanh {
+  width: 34px;
+  height: 34px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #828282;
+  display: none;
+  z-index: 11;
+}
+div.box div.fanh img {
+  width: 100%;
+  height: 100%;
+}
+div.box nav {
+  width: 95%;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 12;
+}
+div.box nav div {
+  width: 280px;
+  height: 56px;
+  float: left;
+  margin-top: 12px;
+}
+div.box nav div img {
+  width: 100%;
+  height: 100%;
+}
+div.box nav ul.navul {
+  height: 36.6px;
+  margin-top: 21.7px;
+  float: right;
+}
+div.box nav ul.navul img {
+  opacity: 0;
+  transition: all 1s ease;
+}
+div.box nav ul.navul li {
+  line-height: 36.6px;
+  margin: 0 10px;
+  text-align: right;
+  float: left;
+}
+div.box nav ul.navul li a {
+  color: #AAAAAA;
+}
+div.box nav ul.navul li.qss a {
+  color: #888888;
+}
+div.box div.jtnav {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
+  height: 57px;
+  margin: 0 0%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  z-index: 11;
+}
+div.box div.jtnav div {
+  width: 160px;
+  height: 32px;
+  float: left;
+  margin-top: 12.5px;
+}
+div.box div.jtnav div img {
+  width: 100%;
+  height: 100%;
+}
+div.box div.jtnav ul.navul {
+  width: 35%;
+  float: right;
+  height: 36.6px;
+  margin-top: 10.2px;
+}
+div.box div.jtnav ul.navul li {
+  line-height: 36.6px;
+  margin: 0 10px;
+  float: left;
+}
+div.box div.jtnav ul.navul li a {
+  color: #AAAAAA;
+}
+div.box div.jtnav ul.navul li.qss a {
+  color: #888888;
+}
+div.box header {
+  width: 100%;
+  height: 450px;
+}
+div.box header div.lunbotu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+div.box header div.lunbotu div.banner {
+  width: 100%;
+  height: 100%;
+}
+div.box header div.lunbotu div.banner ul.conter {
+  width: 100%;
+  height: 100%;
+}
+div.box header div.lunbotu div.banner ul.conter li {
+  width: 100%;
+  height: 100%;
+}
+div.box header div.lunbotu div.banner ul.conter li a {
+  width: 100%;
+  height: 100%;
+}
+div.box header div.lunbotu div.banner ul.conter li a img {
+  width: 100%;
+  height: 100%;
+}
+div.box main {
+  width: 100%;
+  height: auto;
+}
+div.box main div.jieshao {
+  width: 100%;
+  height: auto;
+  background-color: #c93434;
+}
+div.box main div.jieshao ul {
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+div.box main div.jieshao ul li {
+  height: 210px;
+  transition: all 0.3s ease;
+  margin-top: 27px;
+}
+div.box main div.jieshao ul li:hover {
+  transform: translateY(-10px);
+}
+div.box main div.jieshao ul li div.wek {
+  width: 100%;
+  height: 130px;
+  margin: 5px auto;
+}
+div.box main div.jieshao ul li div.wek div {
+  width: 95%;
+  height: 65px;
+  margin: 10px auto ;
+}
+div.box main div.jieshao ul li div.wek div img {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  display: block;
+}
+div.box main div.jieshao ul li div.wek p {
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px ;
+}
+div.box main div.jieshao ul li div.wek span {
+  display: block;
+  font-size: 14px;
+  font-family: arial;
+  color: #e56767;
+  text-align: center;
+}
+div.box main div.jieshao ul li:nth-child(2) div.wek {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+div.box main div.jieshao ul li:nth-child(3) div.wek {
+  border-right: 1px solid #ccc;
+}
+div.box main div.hotel,
+div.box main div.clocation {
+  width: 100%;
+  height: auto;
+}
+div.box main div.hotel div.tit,
+div.box main div.clocation div.tit {
+  width: 95%;
+  margin: 0 auto;
+  height: 184px;
+}
+div.box main div.hotel div.tit p,
+div.box main div.clocation div.tit p {
+  float: left;
+  line-height: 184px;
+}
+div.box main div.hotel div.tit p a,
+div.box main div.clocation div.tit p a {
+  font-size: 18px;
+  border-bottom: 2px solid #494949;
+  padding-bottom: 5px;
+  color: #494949;
+}
+div.box main div.hotel div.tit p a:hover,
+div.box main div.clocation div.tit p a:hover {
+  text-decoration: none;
+}
+div.box main div.hotel div.tit p span,
+div.box main div.clocation div.tit p span {
+  font-size: 16px;
+  color: #999999;
+  font-style: italic;
+  margin-left: 5px ;
+  border: 0;
+}
+div.box main div.hotel div.tit span,
+div.box main div.clocation div.tit span {
+  float: right;
+  line-height: 184px;
+}
+div.box main div.hotel div.tit span a,
+div.box main div.clocation div.tit span a {
+  border: 1px solid #CCCCCC;
+  color: #999999;
+}
+div.box main div.hotel div.tit span a:hover,
+div.box main div.clocation div.tit span a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+div.box main div.hotel ul,
+div.box main div.clocation ul {
+  width: 80%;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+div.box main div.hotel ul::after,
+div.box main div.clocation ul::after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+div.box main div.hotel ul li,
+div.box main div.clocation ul li {
+  padding: 5px;
+}
+div.box main div.hotel ul li div.wek,
+div.box main div.clocation ul li div.wek {
+  box-shadow: 0px 0px 5px #ccc;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+div.box main div.hotel ul li div.wek div,
+div.box main div.clocation ul li div.wek div {
+  width: 100%;
+  height: 193px;
+}
+div.box main div.hotel ul li div.wek div img,
+div.box main div.clocation ul li div.wek div img {
+  width: 100%;
+  height: 100%;
+}
+div.box main div.hotel ul li div.wek p,
+div.box main div.clocation ul li div.wek p {
+  font-size: 20px;
+  color: #C93434;
+  font-family: "宋体";
+  text-align: center;
+  margin: 5px 0;
+}
+div.box main div.hotel ul li div.wek span:nth-child(4),
+div.box main div.clocation ul li div.wek span:nth-child(4) {
+  display: block;
+  font-size: 14px;
+  color: #606060;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+div.box main div.hotel ul li div.wek span:nth-child(3),
+div.box main div.clocation ul li div.wek span:nth-child(3) {
+  display: block;
+  font-size: 13px;
+  color: #828282;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+div.box main div.hotel ul li {
+  transition: all 2s ease;
+  transform: translateY(200px);
+  opacity: 0;
+}
+div.box main div.clocation {
+  background-color: #F4F4F4;
+}
+div.box main div.clocation div.tit {
+  background-color: #F4F4F4;
+}
+div.box main div.clocation ul li {
+  transition: all 2s ease;
+  transform: translateY(200px);
+  opacity: 0;
+  padding: 10px 20px;
+}
+div.box main div.clocation ul li div.wek {
+  background-color: #FFFFFF;
+  padding-bottom: 10px;
+}
+div.box main div.clocation ul li div.wek div {
+  overflow: hidden;
+}
+div.box main div.clocation ul li div.wek div img:hover {
+  transition: all 1s ease;
+  transform: scale(1.2);
+}
+div.box main div.contact div.tit {
+  width: 95%;
+  margin: 0 auto;
+  height: 184px;
+}
+div.box main div.contact div.tit p {
+  float: left;
+  line-height: 184px;
+}
+div.box main div.contact div.tit p a {
+  font-size: 18px;
+  border-bottom: 2px solid #494949;
+  padding-bottom: 5px;
+  color: #494949;
+}
+div.box main div.contact div.tit p a:hover {
+  text-decoration: none;
+}
+div.box main div.contact div.tit p span {
+  font-size: 16px;
+  color: #999999;
+  font-style: italic;
+  margin-left: 5px ;
+  border: 0;
+}
+div.box main div.contact div.tit span {
+  float: right;
+  line-height: 184px;
+}
+div.box main div.contact div.tit span a {
+  border: 1px solid #CCCCCC;
+  color: #999999;
+}
+div.box main div.contact div.tit span a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+div.box main div.contact div.cent {
+  width: 80%;
+  margin: 0 auto;
+  height: 338px;
+  padding-bottom: 50px;
+}
+div.box main div.contact div.cent div.cild {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+div.box main div.contact div.cent div.cild ul {
+  width: 100%;
+}
+div.box main div.contact div.cent div.cild ul span {
+  width: 100%;
+  font-size: 15px;
+  color: #333333;
+  font-family: "微软雅黑";
+}
+div.box main div.contact div.cent div.cild ul li {
+  width: 100%;
+  text-align: left;
+  margin: 8px 0;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  color: #888888;
+}
+div.box main div.contact div.cent div.cild ul:nth-child(2) {
+  margin-top: 30px;
+}
+div.box main div.contact div.cent div.cont {
+  width: 70%;
+  float: right;
+  overflow: hidden;
+  height: 100%;
+}
+div.box main div.contact div.cent div.cont ul {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+div.box main div.contact div.cent div.cont ul::after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+div.box main div.contact div.cent div.cont ul li {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+}
+div.box main div.contact div.cent div.cont ul li div.lfet {
+  float: left;
+  width: 48%;
+}
+div.box main div.contact div.cent div.cont ul li div.lfet input {
+  width: 100%;
+  height: 25px;
+  outline: 0;
+}
+div.box main div.contact div.cent div.cont ul li div.lfet span {
+  color: white;
+  font-size: 12px;
+  display: none;
+  height: 20px;
+  background-color: red;
+  padding: 2px 5px;
+  margin-top: 5px;
+}
+div.box main div.contact div.cent div.cont ul li div.lfet span i {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../img/2.png) no-repeat center / 100% 100%;
+  margin: 0 3px;
+}
+div.box main div.contact div.cent div.cont ul li div.lrigh {
+  float: right;
+  width: 48%;
+}
+div.box main div.contact div.cent div.cont ul li div.lrigh input {
+  width: 100%;
+  height: 25px;
+  outline: 0;
+}
+div.box main div.contact div.cent div.cont ul li div.lrigh span {
+  color: white;
+  font-size: 12px;
+  display: none;
+  height: 20px;
+  background-color: red;
+  padding: 2px 5px;
+  margin-top: 5px;
+}
+div.box main div.contact div.cent div.cont ul li div.lrigh span i {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../img/2.png) no-repeat center / 100% 100%;
+  margin: 0 3px;
+}
+div.box main div.contact div.cent div.cont ul li textarea {
+  width: 100%;
+  height: 76px;
+  overflow-x: none;
+  outline: 0;
+}
+div.box main div.contact div.cent div.cont ul li div.but {
+  width: 100px;
+  height: 30px;
+  background-color: #969696;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+div.box main div.contact div.cent div.cont ul li div.but:hover {
+  background-color: #787878;
+}
+div.box main div.contact div.cent div.cont ul li:nth-child(3) {
+  width: 100%;
+  height: 76px;
+}
+div.box main div.contact div.cent div.cont ul li:nth-child(5) {
+  width: 100%;
+  height: 74px;
+}
+div.box main div.contact div.cent div.cont ul li:nth-child(5) span {
+  display: block;
+  font-size: 15px;
+  color: #666;
+  margin: 3px 0;
+}
+div.box footer {
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  height: 63px;
+}
+div.box footer p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #aaaaaa;
+  text-align: center;
+  line-height: 63px;
+}
+@media screen and (max-width: 770px) {
+  div.box nav div {
+    width: 100%;
+    height: 43px ;
+  }
+  div.box nav div img {
+    display: block;
+    width: 215px;
+    height: 43px;
+    margin: 0 auto;
+  }
+  .banner {
+    position: absolute;
+    top: 0px;
+  }
+  .banner > ul {
+    top: 0px;
+  }
+  .banner > ul > li > a > img {
+    width: 100%;
+    height: 450px;
+  }
+  .img-btn-list > span {
+    width: 12PX;
+    height: 12px;
+  }
+  div.box nav ul.navul > img {
+    opacity: 1;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 14px;
+    height: 14px;
+    margin-top: 14.7px;
+    z-index: 11;
+  }
+  div.box nav ul.navul li {
+    display: none;
+  }
+  body {
+    height: 5000px;
+  }
+  div.box {
+    overflow: hidden;
+    height: 5000px;
+  }
+  div.box div.fanh {
+    bottom: 100px;
+  }
+  div.box div.jtnav {
+    display: none;
+  }
+  div.box header {
+    width: 100%;
+    height: 450px;
+  }
+  div.box main {
+    overflow: hidden;
+  }
+  div.box main div.jieshao {
+    width: 100%;
+  }
+  div.box main div.jieshao ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  div.box main div.jieshao ul li:nth-child(2) div.wek {
+    border: 0;
+  }
+  div.box main div.jieshao ul li:nth-child(3) div.wek {
+    border: 0;
+  }
+  div.box main div.hotel div.tit {
+    height: 70px;
+  }
+  div.box main div.hotel div.tit p {
+    line-height: 70px;
+  }
+  div.box main div.hotel div.tit span {
+    line-height: 70px;
+  }
+  div.box main div.hotel ul {
+    width: 100%;
+    height: auto;
+  }
+  div.box main div.hotel ul li {
+    margin: 5px 0px;
+  }
+  div.box main div.clocation div.tit {
+    height: 70px;
+  }
+  div.box main div.clocation div.tit p {
+    line-height: 70px;
+  }
+  div.box main div.clocation div.tit span {
+    line-height: 70px;
+  }
+  div.box main div.clocation ul {
+    width: 100%;
+  }
+  div.box main div.clocation ul li {
+    padding: 10px 20px;
+  }
+  div.box main div.clocation ul li div.wek {
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+  }
+  div.box main div.contact {
+    height: auto;
+  }
+  div.box main div.contact div.tit {
+    height: 70px;
+  }
+  div.box main div.contact div.tit p {
+    line-height: 70px;
+  }
+  div.box main div.contact div.tit span {
+    line-height: 70px;
+  }
+  div.box main div.contact div.cent {
+    width: 94%;
+    margin: 0 auto;
+    height: 635px;
+  }
+  div.box main div.contact div.cent div.cild {
+    width: 100%;
+    float: none;
+  }
+  div.box main div.contact div.cent div.cont {
+    width: 100%;
+    float: none;
+  }
+  div.box footer {
+    width: 100%;
+  }
+  div.box footer p {
+    line-height: inherit;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .banner {
+    position: absolute;
+    top: 0px;
+  }
+  .banner > ul {
+    top: -100px;
+  }
+  .banner > ul > li > a > img {
+    width: 100%;
+    height: 200px;
+  }
+  div.box header {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  div.box main div.contact div.cent div.cont {
+    width: 60%;
+  }
+  div.box div.jtnav ul.navul {
+    width: auto;
+  }
+}
+@media screen and (min-width: 750px) {
+  div.box {
+    overflow: hidden;
+  }
+  div.box header {
+    width: 100%;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 980px) {
+  div.box main div.jieshao ul {
+    height: 500px;
+  }
+  div.box main div.jieshao ul li:nth-child(2) div.wek {
+    border: 0;
+  }
+  div.box main div.jieshao ul li:nth-child(3) div.wek {
+    border: 0;
+  }
+  div.box div.jtnav ul.navul {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1300px) {
+  div.box div.jtnav ul.navul {
+    width: auto;
+  }
+}
